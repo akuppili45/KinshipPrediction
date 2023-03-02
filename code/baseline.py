@@ -12,7 +12,7 @@ from keras.models import Model
 from keras.optimizers import Adam
 
 train_file_path = "../input/train_relationships.csv"
-train_folders_path = "../input/train/"
+train_folders_path = "../input/train/" 
 val_famillies = "F09"
 
 all_images = glob(train_folders_path + "*/*/*.jpg")

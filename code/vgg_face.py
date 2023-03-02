@@ -14,7 +14,7 @@ from keras_vggface.vggface import VGGFace
 
 train_file_path = "../input/train_relationships.csv"
 train_folders_path = "../input/train/"
-val_famillies = "F09"
+val_famillies = "F09"  
 
 all_images = glob(train_folders_path + "*/*/*.jpg")
 
